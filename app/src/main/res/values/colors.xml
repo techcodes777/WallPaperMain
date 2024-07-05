@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorBackgroundDark">#0c0c0c</color>
+    <color name="colorBackgroundLight">#ffffff</color>
+    <color name="colorToolbarDark">#0c0c0c</color>
+    <color name="orange">#F86F05</color>
+
+    <color name="gray">#433C3C</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="trans_rant">#00000000</color>
+    <color name="grey_trans">#80ffffff</color>
+    <color name="action_light">#b590ff</color>
+    <color name="splash_screen_bg">#000000</color>
+    <color name="acc_color">#C4C4C4</color>
+    <color name="tittle_color">#FEFCFC</color>
+    <color name="acc_text_color">#616161</color>
+    <color name="red">#EA4335</color>
+    <color name="create_now">#D9D9D9</color>
+    <color name="et_color">#FEFCFC</color>
+    <color name="enter_forgot_color">#E5E5E5</color>
+    <color name="log_color">#18132D</color>
+    <color name="colorOverlay">#78ffffff</color>
+
+
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_height">80dp</dimen>
+    <dimen name="logo_width">80dp</dimen>
+    <dimen name="common_navigator_height">45dp</dimen>
+    <dimen name="navigator_margin_top">5dp</dimen>
+    <dimen name="wallpaper_corner_radius">8dp</dimen>
+
+</resources>

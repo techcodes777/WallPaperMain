@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "929534960424",
+    "firebase_url": "https://wallpaper-19f8f-default-rtdb.firebaseio.com",
+    "project_id": "wallpaper-19f8f",
+    "storage_bucket": "wallpaper-19f8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929534960424:android:0aeebafbee94eabfed661d",
+        "android_client_info": {
+          "package_name": "com.hdlight.wallpaperapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929534960424-8um5881gtlnui6onk85ome3qdmdahqt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9ON0sj20thBVWBpIB6WwYciZ4bLPAx2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929534960424-8um5881gtlnui6onk85ome3qdmdahqt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

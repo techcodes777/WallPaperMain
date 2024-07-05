@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/splash_screen_bg">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+
+<!--    <com.viewpagerindicator.CirclePageIndicator-->
+<!--        android:id="@+id/indicator"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@+id/relative"-->
+<!--        app:fillColor="#3835C5"-->
+<!--        app:pageColor="#FFFFFF"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="@dimen/_12sdp"-->
+<!--        app:radius="@dimen/_3sdp"-->
+<!--        android:layout_marginStart="@dimen/_20sdp"-->
+<!--        android:layout_marginEnd="@dimen/_20sdp"-->
+<!--        app:snap="true"-->
+<!--        android:paddingStart="@dimen/_10sdp"-->
+<!--        app:strokeWidth="0dp" />-->
+
+    <com.make.dots.dotsindicator.DotsIndicator
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:dot_drawable="@drawable/dot_selected"
+        app:dot_drawable_unselected="@drawable/dot_unselected"
+        android:layout_above="@id/relative"
+        android:layout_centerHorizontal="true"
+        app:dot_margin="16dp"
+        app:dot_height="8dp"
+        app:dot_width="8dp" />
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/txtSkip"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Skip"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/tutorial_shape_btn"/>
+
+        <TextView
+            android:id="@+id/txtNext"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentEnd="true"
+            android:text="Next"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/tutorial_shape_btn"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">WallPaper</string>
+    <string name="category_image_ratio">H,2:1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="dialog_option_ok">OK</string>
+    <string name="dialog_option_cancel">Cancel</string>
+    <string name="snack_bar_applying">Applying…</string>
+    <string name="set_home_screen">Home Screen</string>
+    <string name="dialog_set_title">Set As :</string>
+    <string name="tittle"><font color='#FFFFFF'><b>SEARCH</b></font></string>
+    <string name="register">Register</string>
+    <string name="account">Create a new account</string>
+    <string name="username">Username</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="create_acc">Create Account</string>
+    <string name="acc_text">Already have account?</string>
+    <string name="welcome">Welcome</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="verification">Verification</string>
+    <string name="login_acc">Login to your account</string>
+    <string name="enter_mo_no">Enter your mobile number</string>
+    <string name="need">Need Help?</string>
+    <string name="verify_acc">Messenger has send a code to verify your account</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="update">Update</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="do_not_account">Don’t have\n account?</string>
+    <string name="create_now">Create\n Now</string>
+    <string name="mobile_otp">Enter OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify">Verify</string>
+    <string name="please_enter_username">Please enter username</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="please_enter_mobile_number">Please enter mobile number</string>
+    <string name="password_length">Password must be 8 character</string>
+    <string name="mobile_no_length">Mobile number must be 10 digits</string>
+    <string name="new_credential">New Credential</string>
+    <string name="set_password_detail">Your identity has been verified!</string>
+    <string name="set_new_password">Set your new password</string>
+    <string name="please_enter_pass">Please enter new password</string>
+    <string name="please_enter_co_pass">Please enter confirm new password</string>
+    <string name="pass_not_match">Password not match</string>
+    <string name="wallpaper">Wallpapers</string>
+    <string name="vie_wallpaper">Video Wallpapers</string>
+    <string name="my_fav">My Favorite</string>
+    <string name="settings">Settings</string>
+    <string name="info_menu">Information</string>
+    <string name="zuku_acc">Zuku account</string>
+    <string name="signing_zuku_acc">sign in to zuku</string>
+    <string name="zuku_detail">Make Zuku change your wallpaper automatically. Wallpaper are selected from downloads on your device.</string>
+    <string name="privacy_data">Privacy and Data</string>
+    <string name="auto_update">Auto update Wallpaper</string>
+    <string name="family_filter">Family filter</string>
+    <string name="privacy_data_detail">Control how zuku personalises advertisements and content</string>
+    <string name="filter_detail">Select to enable family friendly browsing</string>
+    <string name="help">Help</string>
+    <string name="info">Information</string>
+    <string name="logout">LOG IN</string>
+    <string name="abouts">About Zuku</string>
+    <string name="terms">Terms of service</string>
+    <string name="about_app">About this app</string>
+    <string name="faq">FAQ</string>
+    <string name="feedback">Feedback</string>
+    <string name="home"> <b>HOME</b></string>
+    <string name="set_wp">SET WALLPAPER</string>
+    <string name="lock_screen">SET LOCK SCREEN</string>
+    <string name="set_both">SET BOTH</string>
+    <string name="download">Download</string>
+
+</resources>

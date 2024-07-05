@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dialog_set_wallpaper">
+        <item>@string/set_home_screen</item>
+    </array>
+
+
+    <array name="system">
+        <item>@string/tittle</item>
+    </array>
+
+    <string-array name="array">
+        <item>@string/tittle</item>
+    </string-array>
+
+
+</resources>

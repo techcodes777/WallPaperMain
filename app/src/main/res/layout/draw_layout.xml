@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:src="@drawable/logo_menu" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_toRightOf="@+id/imgLogo"
+                android:src="@drawable/zuku_title"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@drawable/line_draw_shape"
+            />
+
+        <TextView
+            android:id="@+id/txtWallPaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:drawableStart="@drawable/wallpaper_icon"
+            android:drawablePadding="@dimen/_20sdp"
+            android:fontFamily="@font/barlow_extrabold"
+            android:includeFontPadding="false"
+            android:text="@string/wallpaper"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/txtVideoWallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:drawableStart="@drawable/video_wallpaper"
+            android:drawablePadding="@dimen/_20sdp"
+            android:fontFamily="@font/barlow_extrabold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/vie_wallpaper"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/txtFav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:drawableStart="@drawable/fav_wallpaper"
+            android:drawablePadding="@dimen/_20sdp"
+            android:fontFamily="@font/barlow_extrabold"
+            android:includeFontPadding="false"
+            android:gravity="center"
+            android:text="@string/my_fav"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/txtMyDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:drawableStart="@drawable/dow_wp"
+            android:drawablePadding="@dimen/_20sdp"
+            android:fontFamily="@font/barlow_extrabold"
+            android:includeFontPadding="false"
+            android:text="@string/my_fav"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/_14sdp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@drawable/line_draw_shape"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <TextView
+            android:id="@+id/txtSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:drawableStart="@drawable/settings_wp"
+            android:drawablePadding="@dimen/_20sdp"
+            android:fontFamily="@font/barlow_extrabold"
+            android:includeFontPadding="false"
+            android:gravity="center"
+            android:onClick="relativeSettings"
+            android:text="@string/settings"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/txtHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:drawableStart="@drawable/help"
+            android:drawablePadding="@dimen/_20sdp"
+            android:fontFamily="@font/barlow_extrabold"
+            android:includeFontPadding="false"
+            android:gravity="center"
+            android:text="@string/help"
+            android:onClick="relativeHelp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/txtInformation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:drawableStart="@drawable/infor"
+            android:drawablePadding="@dimen/_20sdp"
+            android:fontFamily="@font/barlow_extrabold"
+            android:includeFontPadding="false"
+            android:gravity="center"
+            android:onClick="relativeInformation"
+            android:text="@string/info"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@drawable/line_draw_shape"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <RelativeLayout
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/dra_log_shape"
+            android:onClick="relativeLogout"
+            >
+
+            <TextView
+                android:id="@+id/txtLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:fontFamily="@font/baloo_tamma"
+                android:includeFontPadding="false"
+                android:paddingTop="@dimen/_2sdp"
+                android:text="@string/logout"
+                android:textColor="@color/log_color"
+                android:textSize="@dimen/_14sdp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@drawable/line_draw_shape"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
